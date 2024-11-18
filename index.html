@@ -51,6 +51,22 @@
             from { transform: rotateX(0deg) rotateY(0deg); }
             to { transform: rotateX(360deg) rotateY(360deg); }
         }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -69,7 +85,12 @@
             <div class="bottom"></div>
         </div>
     </div>
-
+    <footer>
+        <p>
+            Curious about our origins? 
+            <a href="wix-legacy.html" target="_blank">Unlock the depths of RATverse history</a>
+        </p>
+    </footer>
     <script>
         const slider = document.getElementById('slider');
         const cube = document.querySelector('.cube');
