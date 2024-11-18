@@ -4,7 +4,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  cursor: url("cursor.cur"), auto;
+  cursor: url("assets/cursor.cur"), auto;
 }
 
 h1 {
